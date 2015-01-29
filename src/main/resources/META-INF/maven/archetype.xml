@@ -1,0 +1,16 @@
+<archetype xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0 http://maven.apache.org/xsd/archetype-1.0.0.xsd">
+  <id>quickstart</id>
+  <sources>
+    <source>src/main/java/tomcat/SampleTomcatApplication.java</source>
+    <source>src/main/java/tomcat/web/SampleController.java</source>
+    <source>src/main/java/tomcat/service/HelloWorldService.java</source>
+  </sources>
+  <resources>
+  	<source>src/main/resources/public/test.css</source>
+  </resources>
+  <testSources>
+    <source>src/test/java/tomcat/web/SampleControllerTest.java</source>
+    <source>src/test/groovy/tomcat/web/SampleControllerSpec.groovy</source>
+  </testSources>
+</archetype>
