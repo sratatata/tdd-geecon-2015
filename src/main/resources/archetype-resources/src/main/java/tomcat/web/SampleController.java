@@ -21,7 +21,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import tomcat.service.HelloWorldService;
+import ${package}.tomcat.service.HelloWorldService;
 
 @Controller
 public class SampleController {
